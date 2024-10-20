@@ -41,13 +41,41 @@ body {
 .jobName {
   margin-top: 0;
   margin-bottom: 8.81px;
-  font-weight: regular;
+  font-weight: 300;
   font-size: 12.8px;
   color: #f47d27;
 }
 
 .website {
-  font-size: 10.24px;
-  color: #4a4e74;
+  font-size: 11px;
+  font-weight: 100;
+  color: #40435d;
   text-decoration: none;
+}
+
+.emailContainerClass {
+  display: flex;
+  justify-content: center;
+}
+
+.emailBtnClass {
+  display: flex;
+  height: 34px;
+  width: 247px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.emailIcon {
+  font-size: 16px;
+  padding-right: 8px;
+  color: #1e1f26;
+}
+
+.emailText {
+  font-size: 16px;
+  color: #374151;
 }
