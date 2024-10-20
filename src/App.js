@@ -7,7 +7,7 @@ import SocialButtons from "./components/SocialButtons";
 
 function App() {
   return (
-    <div className="App">
+    <div className="containerClass">
       <ImagePart />
       <Title />
       <EmailButton />

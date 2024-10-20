@@ -1,5 +1,14 @@
 import React from "react";
+import personalImage from "../images/personalImage.png";
 
 export default function ImagePart() {
-  return <h1>Image component</h1>;
+  return (
+    <div>
+      <img
+        alt="a woman who is smile"
+        src={personalImage}
+        className="personalImage"
+      />
+    </div>
+  );
 }
